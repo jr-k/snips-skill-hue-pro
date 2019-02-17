@@ -12,8 +12,8 @@ import Queue
 CONFIGURATION_ENCODING_FORMAT = "utf-8"
 
 CONFIG_INI =  "config.ini"
-CACHE_INI = expanduser("~/.hue_cache/cache.ini")
-CACHE_INI_DIR =  expanduser("~/.hue_cache/")
+CACHE_INI = expanduser("/var/lib/snips/skills/.hue_cache/cache.ini")
+CACHE_INI_DIR =  expanduser("/var/lib/snips/skills/.hue_cache/")
 
 MQTT_IP_ADDR = "localhost"
 MQTT_PORT = 1883
